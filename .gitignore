@@ -1,0 +1,23 @@
+# Windows
+*.VC.opendb
+*.VC.db
+.vs/
+
+# Generated artefacts
+bin/*_debug*
+bin/*.app
+!bin/data/
+bin/*.app
+!bin/data/
+
+build/
+DerivedData
+obj/
+*.o
+Debug*/
+Release*/
+*.mode*
+*.app/
+
+# gzipped archive of the app
+/bin/*.app.tar.gz
